@@ -19,11 +19,11 @@ public class AndroidSampleTests {
         DesiredCapabilities caps = new DesiredCapabilities();
 
         // Set your access credentials
-        caps.setCapability("browserstack.user", "tpuretest_lSVWc2");
-        caps.setCapability("browserstack.key", "Ggd5nW19cyeGseGGn2m6");
+        caps.setCapability("browserstack.user", "nokegidmosoftcom_SDQeJ0");
+        caps.setCapability("browserstack.key", "ySJbHRBv2rSEgSYzoEQK");
 
         // Set URL of the application under test
-        caps.setCapability("app", "bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c");
+        caps.setCapability("app", "bs://792a7f6ec7557b01fd2c751187112250eb8d14f1");
 
         // Specify device and os_version for testing
         caps.setCapability("device", "Google Pixel 3");
