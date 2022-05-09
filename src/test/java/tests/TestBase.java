@@ -16,11 +16,10 @@ import static helpers.Attachments.getSessionId;
 public class TestBase {
     @BeforeAll
     public static void setup() {
-        addListener("AllureSelenide", new AllureSelenide());
         Configuration.browser = BrowserstackMobileDriver.class.getName();
         Configuration.browserSize = null;
+        addListener("AllureSelenide", new AllureSelenide());
     }
-
     @BeforeEach
     public void startDriver() {
         open();

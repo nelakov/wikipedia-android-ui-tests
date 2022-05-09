@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18603532-ff8b-4746-b8a7-72786ec49184" name="Changes" comment="add config class and tests from lesson + change gradle">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="18603532-ff8b-4746-b8a7-72786ec49184" name="Changes" comment="add test for Wikipedia latest version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/ConfigUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/ConfigUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/Credentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/Creds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/drivers/BrowserstackMobileDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/drivers/BrowserstackMobileDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/Browserstack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Browserstack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AndroidSampleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AndroidSampleTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +89,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/nelak/IdeaProjects/demo_browserstack_project_tests/src/test/java/tests"
+    "last_opened_file_path": "C:/Users/nelak/IdeaProjects/demo_browserstack_project_tests/src/test/java/tests",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -104,29 +99,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.demo_browserstack_project_tests [allureServe]">
-    <configuration name="AndroidSampleTests.searchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.AndroidSampleTests.searchTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="AndroidSelenideHomeWorkTests.newSearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -164,6 +136,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;tests.Homework.AndroidSelenideHomeWorkTests.searchNewWikiTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="WikipediaLatestVersionTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":selenide_android_test" />
+            <option value="--tests" />
+            <option value="&quot;tests.Homework.WikipediaLatestVersionTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -220,10 +215,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.demo_browserstack_project_tests [allureServe]" />
+        <item itemvalue="Gradle.WikipediaLatestVersionTests" />
         <item itemvalue="Gradle.WikipediaLatestVersionTests.searchNewWikiTest" />
         <item itemvalue="Gradle.AndroidSelenideHomeWorkTests.searchNewWikiTest" />
         <item itemvalue="Gradle.AndroidSelenideHomeWorkTests.newSearchTest" />
-        <item itemvalue="Gradle.AndroidSampleTests.searchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +230,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652047883534</updated>
-      <workItem from="1652047886746" duration="8008000" />
+      <workItem from="1652047886746" duration="11018000" />
     </task>
     <task id="LOCAL-00001" summary="create build gradle">
       <created>1652048008153</created>
@@ -251,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652095014287</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add test for Wikipedia latest version">
+      <created>1652101346116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652101346116</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +273,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create build gradle" />
     <MESSAGE value="add config class and tests from lesson + change gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="add config class and tests from lesson + change gradle" />
+    <MESSAGE value="add test for Wikipedia latest version" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test for Wikipedia latest version" />
   </component>
 </project>
