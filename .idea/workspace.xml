@@ -5,7 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18603532-ff8b-4746-b8a7-72786ec49184" name="Changes" comment="add test for Wikipedia latest version">
+      <change afterPath="$PROJECT_DIR$/images/allure-record.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/allure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/jenkins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/config/Credentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/config/EmulatorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/config/SamsungMobileConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/DeviceMobileDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/DriverSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/EmulatorMobileDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/WikipediaAppiumTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/samples/AndroidSampleTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/steps/WikiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apk/app-alpha-universal-release.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/config/ConfigUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/BrowserStackConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/config/Creds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/drivers/BrowserstackMobileDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/drivers/BrowserstackMobileDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/Attachments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/Browserstack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Browserstack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AndroidSampleTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AndroidSampleWithSelenium4Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/samples/AndroidSampleWithSelenium4Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AndroidSelenideTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Homework/WikipediaLatestVersionTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,15 +89,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/build.gradle" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/config/ConfigUser.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/config/Creds.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/drivers/BrowserstackMobileDriver.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/helpers/Attachments.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/helpers/Browserstack.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/tests/AndroidSelenideTests.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/tests/TestBase.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -86,43 +109,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/nelak/IdeaProjects/demo_browserstack_project_tests/src/test/java/tests",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nelak/IdeaProjects/demo_browserstack_project_tests/src/test/resources/apk&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1efd7fcd9eb7544d12d81fe91578c327&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nelak\IdeaProjects\demo_browserstack_project_tests\src\test\resources\apk" />
+      <recent name="C:\Users\nelak\IdeaProjects\demo_browserstack_project_tests" />
+      <recent name="C:\Users\nelak\IdeaProjects\demo_browserstack_project_tests\src\test\java\tests\emulator" />
       <recent name="C:\Users\nelak\IdeaProjects\demo_browserstack_project_tests\src\test\java\tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nelak\IdeaProjects\demo_browserstack_project_tests\src\test\resources\apk" />
+      <recent name="C:\Users\nelak\IdeaProjects\demo_browserstack_project_tests\src\main" />
+      <recent name="C:\Users\nelak\IdeaProjects\demo_browserstack_project_tests\src\test\java\tests\samples" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="drivers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.browerstack" />
+      <recent name="helpers" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.demo_browserstack_project_tests [allureServe]">
-    <configuration name="AndroidSelenideHomeWorkTests.newSearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":selenide_android_test" />
-            <option value="--tests" />
-            <option value="&quot;tests.Homework.AndroidSelenideHomeWorkTests.newSearchTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AndroidSelenideHomeWorkTests.searchNewWikiTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AndroidSelenideTests.searchNewWikiTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -135,7 +151,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.Homework.AndroidSelenideHomeWorkTests.searchNewWikiTest&quot;" />
+            <option value="&quot;tests.AndroidSelenideTests.searchNewWikiTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -145,7 +161,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WikipediaLatestVersionTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AndroidSelenideTests.searchTest (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -156,9 +172,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":selenide_android_test" />
+            <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.Homework.WikipediaLatestVersionTests&quot;" />
+            <option value="&quot;tests.AndroidSelenideTests.searchTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -168,7 +184,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WikipediaLatestVersionTests.searchNewWikiTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AndroidSelenideTests.searchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -179,9 +195,32 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":selenide_android_test" />
+            <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.Homework.WikipediaLatestVersionTests.searchNewWikiTest&quot;" />
+            <option value="&quot;tests.emulator.AndroidSelenideTests.searchTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="WikipediaAppiumTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.WikipediaAppiumTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -215,10 +254,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.demo_browserstack_project_tests [allureServe]" />
-        <item itemvalue="Gradle.WikipediaLatestVersionTests" />
-        <item itemvalue="Gradle.WikipediaLatestVersionTests.searchNewWikiTest" />
-        <item itemvalue="Gradle.AndroidSelenideHomeWorkTests.searchNewWikiTest" />
-        <item itemvalue="Gradle.AndroidSelenideHomeWorkTests.newSearchTest" />
+        <item itemvalue="Gradle.WikipediaAppiumTests" />
+        <item itemvalue="Gradle.AndroidSelenideTests.searchTest (2)" />
+        <item itemvalue="Gradle.AndroidSelenideTests.searchNewWikiTest" />
+        <item itemvalue="Gradle.AndroidSelenideTests.searchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +269,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652047883534</updated>
-      <workItem from="1652047886746" duration="11018000" />
+      <workItem from="1652047886746" duration="13713000" />
+      <workItem from="1652194923841" duration="3393000" />
+      <workItem from="1652291104524" duration="7930000" />
+      <workItem from="1652304911359" duration="7766000" />
+      <workItem from="1652350991289" duration="45000" />
+      <workItem from="1652384714977" duration="5797000" />
+      <workItem from="1652390894850" duration="10376000" />
+      <workItem from="1652401499739" duration="1497000" />
     </task>
     <task id="LOCAL-00001" summary="create build gradle">
       <created>1652048008153</created>
@@ -253,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652101346116</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add test for Wikipedia latest version">
+      <created>1652109091084</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652109091084</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
