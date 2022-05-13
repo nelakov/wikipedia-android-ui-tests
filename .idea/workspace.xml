@@ -5,30 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18603532-ff8b-4746-b8a7-72786ec49184" name="Changes" comment="refactoring and add tests / add config file / add README">
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/Credentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/EmulatorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/SamsungMobileConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/DeviceMobileDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/DriverSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/EmulatorMobileDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/WikipediaAppiumTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/samples/AndroidSampleTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/steps/WikiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/apk/app-alpha-universal-release.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Browserstack.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/EmulatorDeviceTests.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MobileDeviceTests.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/jenkins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/jenkins_param.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/wikipedia.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/ConfigUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/BrowserStackConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/Creds.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/drivers/BrowserstackMobileDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/drivers/BrowserstackMobileDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/Attachments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/Browserstack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Browserstack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AndroidSampleTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AndroidSampleWithSelenium4Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/samples/AndroidSampleWithSelenium4Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AndroidSelenideTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Homework/WikipediaLatestVersionTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,13 +93,14 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nelak/IdeaProjects/demo_browserstack_project_tests/src/test/resources/apk&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nelak/IdeaProjects/demo_browserstack_project_tests/images&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;1efd7fcd9eb7544d12d81fe91578c327&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nelak\IdeaProjects\demo_browserstack_project_tests\images" />
       <recent name="C:\Users\nelak\IdeaProjects\demo_browserstack_project_tests\src\test\resources\apk" />
       <recent name="C:\Users\nelak\IdeaProjects\demo_browserstack_project_tests" />
       <recent name="C:\Users\nelak\IdeaProjects\demo_browserstack_project_tests\src\test\java\tests\emulator" />
@@ -271,7 +258,8 @@
       <workItem from="1652350991289" duration="45000" />
       <workItem from="1652384714977" duration="5797000" />
       <workItem from="1652390894850" duration="10376000" />
-      <workItem from="1652401499739" duration="1832000" />
+      <workItem from="1652401499739" duration="2978000" />
+      <workItem from="1652404618962" duration="1499000" />
     </task>
     <task id="LOCAL-00001" summary="create build gradle">
       <created>1652048008153</created>
@@ -308,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652403332881</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactoring and add tests / add config file / add README">
+      <created>1652403545816</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652403545816</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,23 +1,10 @@
-## <img src="https://github.com/ioomoon/QA-guru-homework-mobile/blob/master/img/icon2.png?raw=true" width="25"> Wikipedia (android mobile app) automated UI tests
+## Wikipedia (android mobile app) automated UI tests
 
-<img src="https://github.com/ioomoon/QA-guru-homework-mobile/blob/master/img/wikipedia.jpg?raw=true" width="500">
-
-<a name="table of contents"></a>
-## :open_book: Table of contents
-1. [Stack](#stack)
-2. [Description](#description)
-3. [How to run tests](#how to run tests)
-    1. [Local launch](#local launch)
-    2. [Remote launch with Jenkins](#remote launch with Jenkins)
-4. [Jenkins](#jenkins)
-5. [Result of test launch](#video)
-    1. [Example the test launch (video)](#video)
-    2. [Result of test launch in the Browserstack](#browserstack)
-    3. [Telegram notification about results of test launch](#telegram)
-6. [Allure TestOps](#project)
-    1. [Project](#project)
-    2. [Integration with Jenkins](#integration)
-    3. [Dashboard](#dashboard)
+<p  align="left">
+<code>
+<img width="80%" title="Wiki header" src="images/wikipedia.jpg">
+</code>
+</p>
 
 ## :heavy_check_mark: Test Cases:
 > Automation mobile <code>UI</code> tests
@@ -47,9 +34,6 @@
 </p>
 
 ---
-
-### [To table of contents ⬆](#table of contents)
-
 ## :heavy_check_mark: Description
 
 Automation tests of the onboarding screen in the Wikipedia mobile application.
@@ -111,13 +95,26 @@ appUrl=https://github.com/wikimedia/apps-android-wikipedia/releases/download/lat
 appPath=src/test/resources/apk/app-alpha-universal-release.apk
 serverUrl=http://localhost:4723/wd/hub
 ```
-### <img width="5%" title="Browserstack" src="https://cdn.worldvectorlogo.com/logos/android-studio-1.svg"> Emulator via Android Studio
+<p  align="left">
+<code>
+<img width="80%" title="Browserstack tests" src="images/Browserstack.gif">
+</code>
+</p>
+
+### <img width="5%" title="Android" src="https://cdn.worldvectorlogo.com/logos/android-studio-1.svg"> Emulator via Android Studio
 
 - Launch Appium on port 4723
 
 ```bash 
 gradle clean test -DdeviceProvider=emulator
 ```
+<p  align="left">
+<code>
+<img width="80%" title="Emulator tests" src="images/EmulatorDeviceTests.gif">
+</code>
+</p>
+
+
 
 ### Example for Mobile the same how like Emulator
 
@@ -125,13 +122,19 @@ gradle clean test -DdeviceProvider=emulator
   ``
   src/test/resources/config/mobile.properties
   ``
-### <img width="5%" title="Browserstack" src="https://www.iconninja.com/files/111/795/698/samsung-galaxy-s-icon.png"> Samsung the real mobile device via USB
+### <img width="5%" title="Mobile" src="https://www.iconninja.com/files/111/795/698/samsung-galaxy-s-icon.png"> Samsung the real mobile device via USB
 
 - Launch Appium on port 4723
 
 ```bash 
 gradle clean test -DdeviceProvider=mobile
 ```
+<p  align="left">
+<code>
+<img width="80%" title="Mobile tests" src="images/MobileDeviceTests.gif">
+</code>
+</p>
+
 
 [To table of contents ⬆](#table of contents)
 
@@ -144,25 +147,25 @@ gradle clean test -DdeviceProvider=mobile
 >Selenoid is one of implementation of original Selenium hub. It is using Docker to launch browsers.
 
 
-[To table of contents ⬆](#table of contents)
-
 # <img width="5%" title="Jenkins" src="https://starchenkov.pro/qa-guru/img/skills/Jenkins.svg"> Jenkins
 >Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software
 
 ## Jenkins job
 Example of Jenkins job that executes tests
-<a target="_blank" href="https://jenkins.autotests.cloud/job/09-Oleynik_Vladimir-mobile/">click here to open jenkins job</a>
-
-## Jenkins parameters
-You can change this params to run test on different environments, servers, etc...
-
+<a target="_blank" href="https://jenkins.autotests.cloud/job/nelakov-demo-browserstack-demo/">click here to open jenkins job</a>
 <p  align="left">
 <code>
 <img width="80%" title="Jenkins-params" src="images/jenkins.png">
 </code>
 </p>
+## Jenkins parameters
+You can change this params to run test on different environments, servers, etc...
 
-[To table of contents ⬆](#table of contents)
+<p  align="left">
+<code>
+<img width="80%" title="Jenkins-params" src="images/jenkins_param.png">
+</code>
+</p>
 
 # :bar_chart: Allure
 > Allure Framework is a flexible lightweight multi-language test report tool that not only shows a very concise representation of what have been tested in a neat web report form, but allows everyone participating in the development process to extract maximum of useful information from everyday execution of tests.
@@ -172,7 +175,7 @@ You can change this params to run test on different environments, servers, etc..
 > Different charts, metrics and statistic to easily analyze tests result
 <p  align="left">
 <code>
-<img width="80%" title="Allure overview" src="images/allure.png">
+<img width="80%" title="Allure overview" src="images/img.png">
 </code>
 </p>
 
