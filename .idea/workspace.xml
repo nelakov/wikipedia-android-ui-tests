@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18603532-ff8b-4746-b8a7-72786ec49184" name="Changes" comment="add test for Wikipedia latest version">
-      <change afterPath="$PROJECT_DIR$/images/allure-record.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/allure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/jenkins.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/result.png" afterDir="false" />
+    <list default="true" id="18603532-ff8b-4746-b8a7-72786ec49184" name="Changes" comment="refactoring and add tests / add config file / add README">
       <change afterPath="$PROJECT_DIR$/src/test/java/config/Credentials.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/config/EmulatorConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/config/SamsungMobileConfig.java" afterDir="false" />
@@ -276,7 +271,7 @@
       <workItem from="1652350991289" duration="45000" />
       <workItem from="1652384714977" duration="5797000" />
       <workItem from="1652390894850" duration="10376000" />
-      <workItem from="1652401499739" duration="1497000" />
+      <workItem from="1652401499739" duration="1832000" />
     </task>
     <task id="LOCAL-00001" summary="create build gradle">
       <created>1652048008153</created>
@@ -306,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652109091084</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactoring and add tests / add config file / add README">
+      <created>1652403332881</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652403332881</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,6 +329,7 @@
     <MESSAGE value="create build gradle" />
     <MESSAGE value="add config class and tests from lesson + change gradle" />
     <MESSAGE value="add test for Wikipedia latest version" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test for Wikipedia latest version" />
+    <MESSAGE value="refactoring and add tests / add config file / add README" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring and add tests / add config file / add README" />
   </component>
 </project>
