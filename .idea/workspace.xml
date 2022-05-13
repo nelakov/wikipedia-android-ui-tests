@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18603532-ff8b-4746-b8a7-72786ec49184" name="Changes" comment="refactoring and add tests / add config file / add README">
-      <change afterPath="$PROJECT_DIR$/images/Browserstack.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/EmulatorDeviceTests.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MobileDeviceTests.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/jenkins.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/jenkins_param.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/result.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/wikipedia.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/drivers/DriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/drivers/DriverSettings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +251,7 @@
       <workItem from="1652384714977" duration="5797000" />
       <workItem from="1652390894850" duration="10376000" />
       <workItem from="1652401499739" duration="2978000" />
-      <workItem from="1652404618962" duration="1499000" />
+      <workItem from="1652404618962" duration="2906000" />
     </task>
     <task id="LOCAL-00001" summary="create build gradle">
       <created>1652048008153</created>
@@ -303,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652403545816</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactoring and add tests / add config file / add README">
+      <created>1652406132185</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652406132185</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
