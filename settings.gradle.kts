@@ -1,1 +1,1 @@
-rootProject.name = "demo_browserstack_project_tests"
+rootProject.name = "wikipedia-android-ui-tests"
