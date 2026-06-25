@@ -28,7 +28,7 @@ that run _unchanged_ across three environments — BrowserStack cloud, a local e
 - 🧩 **Zero-duplication drivers** — a shared `LocalAndroidDriver` (template method) powers both emulator and real device; subclasses differ only by which config they supply.
 - 📊 **Rich reporting** — Allure with `@Step` annotations plus an automatic screenshot + page source on every test.
 - 🤖 **CI-ready** — a parameterized Jenkins job runs the suite on demand.
-- 🆕 **Modern stack** — Java 25, Gradle 9.6 (Kotlin DSL), JUnit 6, Selenide 7, Appium 9.
+- 🆕 **Modern stack** — Java 25, Gradle 9.6 (Kotlin DSL), JUnit 6, Selenide 7, Appium 10.
 
 ## 🧰 Tech stack
 
