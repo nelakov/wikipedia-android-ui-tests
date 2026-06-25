@@ -10,7 +10,7 @@ that run _unchanged_ across three environments — BrowserStack cloud, a local e
 <br/>
 
 ![Java](https://img.shields.io/badge/Java-25-orange?logo=openjdk&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-9.5%20·%20Kotlin%20DSL-02303A?logo=gradle&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-9.6%20·%20Kotlin%20DSL-02303A?logo=gradle&logoColor=white)
 ![JUnit](https://img.shields.io/badge/JUnit-6-25A162?logo=junit5&logoColor=white)
 ![Selenide](https://img.shields.io/badge/Selenide-7.16-1f6feb)
 ![Appium](https://img.shields.io/badge/Appium-10.1-662D91?logo=appium&logoColor=white)
@@ -28,13 +28,13 @@ that run _unchanged_ across three environments — BrowserStack cloud, a local e
 - 🧩 **Zero-duplication drivers** — a shared `LocalAndroidDriver` (template method) powers both emulator and real device; subclasses differ only by which config they supply.
 - 📊 **Rich reporting** — Allure with `@Step` annotations plus an automatic screenshot + page source on every test.
 - 🤖 **CI-ready** — a parameterized Jenkins job runs the suite on demand.
-- 🆕 **Modern stack** — Java 25, Gradle 9.5 (Kotlin DSL), JUnit 6, Selenide 7, Appium 9.
+- 🆕 **Modern stack** — Java 25, Gradle 9.6 (Kotlin DSL), JUnit 6, Selenide 7, Appium 9.
 
 ## 🧰 Tech stack
 
 | Layer | Tooling |
 |---|---|
-| Language / build | Java 25 · Gradle 9.5 (`build.gradle.kts`, Kotlin DSL) |
+| Language / build | Java 25 · Gradle 9.6 (`build.gradle.kts`, Kotlin DSL) |
 | Test runner | JUnit 6 |
 | UI driver | Selenide 7 over Appium 10 (`java-client`, UiAutomator2) |
 | Config | Owner |
